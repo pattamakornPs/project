@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".booking">
+
+    <EditText
+        android:id="@+id/bookingname"
+        android:layout_width="359dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="11dp"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/bookingtime"
+        android:layout_width="359dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/bookingtel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="11dp"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:hint="เวลา ตัวอย่าง 10:00 - 10:30" />
+
+    <EditText
+        android:id="@+id/bookingtel"
+        android:layout_width="359dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/bookingname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="9dp"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:hint="Tel" />
+
+    <CheckBox
+        android:id="@+id/hc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookingtime"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="266dp"
+        android:text="ตัดผม" />
+
+    <CheckBox
+        android:id="@+id/cc"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookingtime"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="176dp"
+        android:text="ทำสี" />
+
+    <CheckBox
+        android:id="@+id/ct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookingtime"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="65dp"
+        android:text="แกะลายผม" />
+
+    <Button
+        android:id="@+id/buttonbooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="134dp"
+        android:text="ยืนยัน" />
+</RelativeLayout>
